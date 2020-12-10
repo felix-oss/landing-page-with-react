@@ -9,13 +9,15 @@ import { Cards } from "./cards.js";
 //create your first component
 export function Home() {
 	return (
-		<div className="text-center mt-5">
+		<div className="text-center">
 			<Nav />
 			<Jumbo />
-			<Cards />
-			<Cards />
-			<Cards />
-			<Cards />
+			<div className="d-flex d-inline">
+				<Cards />
+				<Cards />
+				<Cards />
+				<Cards />
+			</div>
 		</div>
 	);
 }

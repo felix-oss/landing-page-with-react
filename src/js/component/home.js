@@ -12,7 +12,7 @@ export function Home() {
 		<div className="text-center">
 			<Nav />
 			<Jumbo />
-			<div className="d-flex d-inline">
+			<div className="justify-content-center d-flex d-inline">
 				<Cards />
 				<Cards />
 				<Cards />
